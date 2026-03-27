@@ -16,7 +16,8 @@ while True:
         print("wrong input choose again ")
         continue
     comp = random.randint(1,3)
-
+ 
+ 
     if you == 1 and comp == 3:
         human_score += 1 
         print(f"you won this round \ncurrent score - you - {human_score} and comp - {comp_score}")
